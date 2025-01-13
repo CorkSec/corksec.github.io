@@ -1,0 +1,147 @@
+:root {
+  --red: #a60000;
+  --white: #f4f4f4;
+  --navy: rgb(48, 71, 94);
+  --black: rgb(18, 18, 18);
+
+  --fw-light-font-weight: 300;
+  --fw-regular-font-weight: 700;
+}
+
+body {
+  background-color: var(--white);
+}
+
+/* FONTS  */
+
+.ubuntu-light {
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* KREON  */
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 300 to 700 */
+
+.kreon-font {
+  font-family: "Kreon", serif;
+  font-optical-sizing: auto;
+  font-weight: var(--fw-regular-font-weight);
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333333; */
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  /* color: white; */
+  /* text-align: center; */
+  /* padding: 16px; */
+  /* text-decoration: none; */
+}
+
+.navbar {
+  /* border: 2px solid red; */
+  background-color: var(--red);
+}
+
+#main-heading {
+  color: var(--white);
+  font-size: 3rem;
+}
+/* .navbar > * {
+  color: var(--white);
+} */
+
+body > nav > div.container {
+  padding: 1em;
+}
+
+body > nav > div.container > ul > li {
+  list-style-type: none;
+}
+body > nav > div.container > ul > li > a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 800;
+  border: 2px solid var(--white);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+body > nav > div.container > ul > li > a:hover {
+  text-decoration: none;
+  color: var(--red);
+  font-weight: 800;
+  border: 2px solid var(--red);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  background-color: var(--white);
+}
+
+#hero-section {
+  padding: 1rem;
+}
+
+#venue {
+  background-image: url(https://secure.meetupstatic.com/photos/event/8/e/1/d/clean_523116381.webp);
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
