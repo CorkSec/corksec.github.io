@@ -1,51 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
-
-    <title>Cork|Sec</title>
-  </head>
-  <body>
-    <nav class="navbar">
-      <div class="container">
-        <h1 id="main-heading" class="ubuntu-bold">Cork|Sec</h1>
-        <ul>
-          <li>
-            <a class="kreon-font" href="https://www.meetup.com/CorkSec/"
-              >CorkSec on Meetup
-            </a>
-          </li>
-          <li>
-            <a class="kreon-font" href="https://github.com/CorkSec"
-              >Github Repo</a
-            >
-          </li>
-          <li><a class="kreon-font" href="#">Slack Channel</a></li>
-
-          <li>
-            <a
-              class="kreon-font"
-              href="https://web.archive.org/web/20211129201439/https://robertmcardle.com/corksec/wiki/index.php?title=Past_CorkSec_Talk_Materials"
-              >Past talks</a
-            >
-          </li>
-        </ul>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Cork|Sec</title>
+  <link rel="stylesheet" href="src/styles.css"/>
+</head>
+<body>
+  <div class="rain" aria-hidden="true"></div>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <h1>Cork|Sec</h1>
+        <small>Learning • Sharing • Community</small>
       </div>
-    </nav>
-    <main>
-      <section id="hero-section" class="ubuntu-bold">
-        <h2>Welcome to the CorkSec / Defcon Group DC021353 Wiki</h2>
+      <nav aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="past-talks.html">Past Talks</a>
+        <a href="Submit-topic.html">Submit a Topic</a>
+        <a href="https://www.meetup.com/corksec/" target="_blank" rel="noopener">Meetup</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+              <h2>Welcome to the CorkSec / Defcon Group DC021353</h2>
         <p class="kreon-font">
           Simply put CorkSec is a monthly meetup for anyone interested in
           Information Security in the Munster region (primarily Cork), which has
@@ -59,25 +39,29 @@
           CorkSec is modeled on the idea of a DefCon Group - In fact its got an
           offical Defcon Group code of DC021353. The ideas behind a Defcon Group
           embodied a lot of what we want to achieve with CorkSec:
+          <ul style="list-style-type:disc;">
+            <li>Meetings are open to anyone, regardless of their skill, age, job, gender, etc</li>
+            <li>Meetings are designed to help you learn new things, meet new people, mentor others in areas you may be strong in, and provide some cohesion within the security/hacker culture and it's members</li>
+            <li>Each meeting will have 1-2 technical talks given by local members of the Cork security/hacker community with occasional guest speakers</li>
+          </ul>
+          <p>In particular we'd like to draw attention to Defcon FAQs answer for "Is this a Hacker Meeting?":</p>
+
+          <p>{{No, this is something better. Anything with the "hacker" label on it tends attract only one kind of person. This meeting is designed to attract not only hackers but members of the InfoSec community and people who want to learn more about InfoSec but do not consider themselves hackers. The purpose here is to interact with people who may have different backgrounds but share the same passion for technology. Many security people feel that hackers are nothing but trouble and many hackers feel that security people are clueless. Those generalizations are often made in error and we'd like to bring all techno-dweebs back under a single umbrella.}}</p>
+
+          <p>To keep up to date on Cork|Sec meetings we recommend signing up on our <a href="https://www.meetup.com/corksec/" target="_blank" rel="noopener">Meetup Page</a> - which serves as the main way to remind people. No real names / photos etc are needed :) Slides and other material from CorkSec will be posted on this site</p>
+
+CorkSec Team
         </p>
-      </section>
+      <ul>
+        <li>Email: <a href="mailto:defconcork@gmail.com">defconcork@gmail.com</a></li>
+        <!-- <li>Signal: <a href="Group link here" target="_blank" rel="noopener">your-org</a></li> -->
+      </ul>
+    </section>
+  </main>
 
-      <section id="venue"></section>
-
-      <section id="speakers">
-        <p>Speakers</p>
-      </section>
-    </main>
-    <footer>
-      <p>footer</p>
-
-      <i class="fa-brands fa-github fa-2xl"></i>
-
-      <i class="fa-brands fa-slack fa-2xl"></i>
-
-      <i class="fa-brands fa-meetup fa-2xl"></i>
-
-      <i class="fa-regular fa-comment fa-2xl"></i>
-    </footer>
-  </body>
+  <footer>
+    <p>© <span id="year"></span> Cork|Sec</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
 </html>

@@ -1,147 +1,152 @@
-:root {
-  --red: #a60000;
-  --white: #f4f4f4;
-  --navy: rgb(48, 71, 94);
-  --black: rgb(18, 18, 18);
-
-  --fw-light-font-weight: 300;
-  --fw-regular-font-weight: 700;
+/* Matrix-style black/green theme */
+:root{
+  --bg:#000;            /* deep black */
+  --panel:#0a0a0a;      /* near-black panels */
+  --neon:#00ff7f;       /* primary green */
+  --neon-dim:#1aff95;   /* lighter green */
+  --text:#c6ffd9;       /* readable green text */
+  --muted:#8affc0;      /* muted labels/links */
+  /* --max: 980px; */
+  --max: clamp(980px, 92vw, 1280px);
+  --radius: 16px;
+  --shadow: 0 0 20px rgba(0,255,127,0.15), 0 0 4px rgba(0,255,127,0.25);
 }
 
-body {
-  background-color: var(--white);
-}
+* { box-sizing: border-box; }
 
-/* FONTS  */
-
-.ubuntu-light {
-  font-family: "Ubuntu", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.ubuntu-regular {
-  font-family: "Ubuntu", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.ubuntu-medium {
-  font-family: "Ubuntu", serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.ubuntu-bold {
-  font-family: "Ubuntu", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.ubuntu-light-italic {
-  font-family: "Ubuntu", serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.ubuntu-regular-italic {
-  font-family: "Ubuntu", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.ubuntu-medium-italic {
-  font-family: "Ubuntu", serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.ubuntu-bold-italic {
-  font-family: "Ubuntu", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-/* KREON  */
-/* // <uniquifier>: Use a unique and descriptive class name */
-/* // <weight>: Use a value from 300 to 700 */
-
-.kreon-font {
-  font-family: "Kreon", serif;
-  font-optical-sizing: auto;
-  font-weight: var(--fw-regular-font-weight);
-  font-style: normal;
-}
-
-ul {
-  list-style-type: none;
+html, body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  /* background-color: #333333; */
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  line-height: 1.6;
 }
 
-li {
-  float: right;
-}
-
-li a {
-  display: block;
-  /* color: white; */
-  /* text-align: center; */
-  /* padding: 16px; */
-  /* text-decoration: none; */
-}
-
-.navbar {
-  /* border: 2px solid red; */
-  background-color: var(--red);
-}
-
-#main-heading {
-  color: var(--white);
-  font-size: 3rem;
-}
-/* .navbar > * {
-  color: var(--white);
-} */
-
-body > nav > div.container {
-  padding: 1em;
-}
-
-body > nav > div.container > ul > li {
-  list-style-type: none;
-}
-body > nav > div.container > ul > li > a {
+a {
+  color: var(--muted);
   text-decoration: none;
-  color: var(--white);
-  font-weight: 800;
-  border: 2px solid var(--white);
-  border-radius: 5px;
-  padding: 5px;
-  margin: 5px;
+  border-bottom: 1px dotted rgba(0,255,127,0.35);
+}
+a:hover, a:focus {
+  color: var(--neon);
+  border-bottom-color: var(--neon);
+  text-shadow: 0 0 6px rgba(0,255,127,0.6);
 }
 
-body > nav > div.container > ul > li > a:hover {
-  text-decoration: none;
-  color: var(--red);
-  font-weight: 800;
-  border: 2px solid var(--red);
-  border-radius: 5px;
-  padding: 5px;
-  margin: 5px;
-  background-color: var(--white);
+header {
+  border-bottom: 1px solid rgba(0,255,127,0.25);
+  background:
+    radial-gradient(1200px 1200px at 10% -20%, rgba(0,255,127,0.08), transparent 60%),
+    radial-gradient(900px 900px at 110% 20%, rgba(0,255,127,0.06), transparent 60%),
+    var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
-#hero-section {
+.container {
+  max-width: var(--max);
+  margin: 0 auto;
   padding: 1rem;
 }
 
-#venue {
-  background-image: url(https://secure.meetupstatic.com/photos/event/8/e/1/d/clean_523116381.webp);
-  height: 400px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: .8rem;
+}
+.brand h1 {
+  margin: 0;
+  font-size: clamp(1.25rem, 2.4vw + .5rem, 2rem);
+  color: var(--neon);
+  text-shadow: 0 0 8px rgba(0,255,127,0.5);
+}
+.brand small {
+  color: var(--muted);
+  opacity: .9;
+}
+
+nav {
+  margin-top: .6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem 1.2rem;
+}
+
+nav a {
+  padding: .45rem .8rem;
+  border: 1px solid rgba(0,255,127,0.25);
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(0,255,127,0.07), rgba(0,255,127,0.03));
+  box-shadow: var(--shadow);
+}
+nav a[aria-current="page"]{
+  border-color: var(--neon);
+  color: var(--neon);
+  box-shadow: 0 0 0 1px rgba(0,255,127,0.35), var(--shadow);
+}
+
+main {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+.panel {
+  background: linear-gradient(180deg, rgba(0,255,127,0.04), rgba(0,255,127,0.02));
+  border: 1px solid rgba(0,255,127,0.2);
+  border-radius: var(--radius);
+  padding: 1.2rem;
+  box-shadow: var(--shadow);
+}
+
+h2, h3 {
+  color: var(--neon);
+  text-shadow: 0 0 6px rgba(0,255,127,0.5);
+}
+
+.list {
+  display: grid;
+  gap: 1rem;
+}
+.talk {
+  border: 1px solid rgba(0,255,127,0.2);
+  border-radius: var(--radius);
+  padding: 1rem;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+footer {
+  border-top: 1px solid rgba(0,255,127,0.2);
+  color: var(--muted);
+  text-align: center;
+  padding: 2rem 1rem 3rem;
+  margin-top: 2rem;
+}
+
+/* Subtle animated “code rain” background */
+.rain {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(0,255,127,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,255,127,0.05) 1px, transparent 1px);
+  background-size: 24px 24px, 24px 24px;
+  animation: glow 6s ease-in-out infinite alternate;
+  z-index: -1;
+}
+@keyframes glow{
+  from { opacity: .35; filter: drop-shadow(0 0 0 rgba(0,255,127,0)); }
+  to   { opacity: .55; filter: drop-shadow(0 0 6px rgba(0,255,127,0.25)); }
+}
+
+/* Accessibility helpers */
+.visually-hidden {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden; clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
 }
