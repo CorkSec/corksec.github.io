@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Past Talks</title>
+  <link rel="stylesheet" href="src/styles.css"/>
+</head>
+<body>
+  <div class="rain" aria-hidden="true"></div>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <h1>Cork|Sec</h1>
+        <small>Learning • Sharing • Community</small>
+      </div>
+      <nav aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="past-talks.html">Past Talks</a>
+        <a href="submit.html">Submit a Topic</a>
+        <a href="https://www.meetup.com/corksec/" target="_blank" rel="noopener">Meetup</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <div id="talks"></div>
+      <noscript>Please enable JavaScript to view the talks list.</noscript>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Cork|Sec</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    fetch('talks.json')
+      .then(r => r.json())
+      .then(data => {
+        const container = document.getElementById('talks');
+        if (!Array.isArray(data) || data.length === 0) {
+          container.innerHTML = "<p>No past talks available yet.</p>";
+          return;
+        }
+        // Group by month (YYYY-MM)
+        const groups = {};
+        for (const t of data) {
+          const key = t.month || 'Unknown';
+          if (!groups[key]) groups[key] = [];
+          groups[key].push(t);
+        }
+        const months = Object.keys(groups).sort().reverse();
+        container.innerHTML = months.map(m => {
+          const items = groups[m].map(t => `
+            <article class="talk">
+              <h3>${t.title}</h3>
+              <p><strong>Speaker:</strong> ${t.speaker || 'TBC'}</p>
+              <p><strong>Date:</strong> ${t.date || m}</p>
+              ${t.description ? `<p>${t.description}</p>` : '' }
+              ${t.files && t.files.length ? `
+                <ul>
+                  ${t.files.map(f => `<li><a href="${f.url}" target="_blank" rel="noopener">${f.label}</a></li>`).join('')}
+                </ul>` : ''
+              }
+            </article>
+          `).join('');
+          return `<h2>${m}</h2>${items}`;
+        }).join('');
+      })
+      .catch(() => {
+        document.getElementById('talks').innerHTML = "<p>Could not load talks.</p>";
+      });
+  </script>
+</body>
+</html>
