@@ -61,11 +61,55 @@ Cork|Sec Team (<a href="https://www.linkedin.com/in/robertmcardle/">Bob</a>, <a 
         <!-- <li>Signal: <a href="Group link here" target="_blank" rel="noopener">your-org</a></li> -->
       </ul>
     </section>
+
+    <section class="panel" style="margin-top:1.25rem">
+      <h2>Upcoming Events</h2>
+      <div id="upcoming">
+        <p>Loading upcoming events...</p>
+      </div>
+      <noscript><p>Please enable JavaScript to view upcoming events.</p></noscript>
+    </section>
   </main>
 
   <footer>
     <p>© <span id="year"></span> Cork|Sec</p>
   </footer>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    (function() {
+      var box = document.getElementById('upcoming');
+      fetch('data/upcoming.json')
+        .then(function(r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(function(events) {
+          if (!events.length) {
+            box.innerHTML = '<p>No upcoming events scheduled. Check our <a href="https://www.meetup.com/corksec/events/" target="_blank" rel="noopener">Meetup page</a> for updates.</p>';
+            return;
+          }
+          box.innerHTML = events.map(function(ev) {
+            var d = ev.date ? new Date(ev.date + 'T' + (ev.time || '00:00')) : null;
+            var dateStr = d ? d.toLocaleDateString('en-IE', { weekday: 'short', year: 'numeric', month: 'long', day: 'numeric' }) : '';
+            var timeStr = ev.time || '';
+            var talks = '';
+            if (ev.talks && ev.talks.length) {
+              talks = '<ul style="margin:.5rem 0 0;padding-left:1.2rem">' +
+                ev.talks.map(function(t) {
+                  return '<li><strong>' + t.title + '</strong>' + (t.speaker ? ' &mdash; ' + t.speaker : '') + '</li>';
+                }).join('') + '</ul>';
+            }
+            var link = ev.meetupUrl ? '<p style="margin-top:.5rem"><a href="' + ev.meetupUrl + '" target="_blank" rel="noopener">View on Meetup</a></p>' : '';
+            return '<article class="talk">' +
+              '<h3>' + ev.title + '</h3>' +
+              '<p>' + dateStr + (timeStr ? ' at ' + timeStr : '') +
+              (ev.venue ? ' &mdash; ' + ev.venue : '') + '</p>' +
+              (ev.description ? '<p>' + ev.description + '</p>' : '') +
+              talks + link +
+              '</article>';
+          }).join('');
+        })
+        .catch(function() {
+          box.innerHTML = '<p>Could not load upcoming events. Check our <a href="https://www.meetup.com/corksec/events/" target="_blank" rel="noopener">Meetup page</a> instead.</p>';
+        });
+    })();
+  </script>
 </body>
 </html>

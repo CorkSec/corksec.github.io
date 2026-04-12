@@ -37,42 +37,90 @@
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    fetch('talks.json')
-      .then(r => r.json())
-      .then(data => {
-        const container = document.getElementById('talks');
-        if (!Array.isArray(data) || data.length === 0) {
-          container.innerHTML = "<p>No past talks available yet.</p>";
-          return;
+    const REPO = 'CorkSec/website-docstore';
+    const BRANCH = 'main';
+    const RAW_BASE = `https://raw.githubusercontent.com/${REPO}/${BRANCH}`;
+    const API_URL = `https://api.github.com/repos/${REPO}/git/trees/${BRANCH}?recursive=1`;
+
+    const container = document.getElementById('talks');
+    container.innerHTML = '<p>Loading talks...</p>';
+
+    // Fetch both data sources in parallel
+    Promise.all([
+      fetch(API_URL).then(r => r.ok ? r.json() : Promise.reject(r.status)),
+      fetch('data/past-events.json').then(r => r.ok ? r.json() : [])
+    ])
+    .then(([docstoreData, pastEvents]) => {
+      // Build docstore file groups keyed by YYYY-MM
+      const docFiles = {};
+      if (docstoreData && docstoreData.tree) {
+        for (const item of docstoreData.tree) {
+          if (item.type !== 'blob' || item.path.endsWith('.DS_Store') || !item.path.includes('/')) continue;
+          const month = item.path.split('/')[0];
+          if (!docFiles[month]) docFiles[month] = [];
+          docFiles[month].push(item);
         }
-        // Group by month (YYYY-MM)
-        const groups = {};
-        for (const t of data) {
-          const key = t.month || 'Unknown';
-          if (!groups[key]) groups[key] = [];
-          groups[key].push(t);
+      }
+
+      // Build past-events groups keyed by YYYY-MM
+      const eventsByMonth = {};
+      for (const ev of pastEvents) {
+        if (!ev.date) continue;
+        const month = ev.date.slice(0, 7); // YYYY-MM
+        if (!eventsByMonth[month]) eventsByMonth[month] = [];
+        eventsByMonth[month].push(ev);
+      }
+
+      // Merge all month keys
+      const allMonths = new Set([...Object.keys(docFiles), ...Object.keys(eventsByMonth)]);
+      const months = [...allMonths].sort().reverse();
+
+      if (months.length === 0) {
+        container.innerHTML = '<p>No past talks available yet.</p>';
+        return;
+      }
+
+      container.innerHTML = months.map(m => {
+        let html = `<h2>${m}</h2>`;
+
+        // Render event metadata (talks, speakers) from past-events.json
+        const events = eventsByMonth[m] || [];
+        for (const ev of events) {
+          html += `<article class="talk">`;
+          html += `<h3>${ev.title}</h3>`;
+          const d = new Date(ev.date + 'T' + (ev.time || '00:00'));
+          const dateStr = d.toLocaleDateString('en-IE', { weekday: 'short', year: 'numeric', month: 'long', day: 'numeric' });
+          html += `<p>${dateStr}` + (ev.venue ? ` &mdash; ${ev.venue}` : '') + `</p>`;
+          if (ev.talks && ev.talks.length) {
+            html += '<ul style="margin:.4rem 0;padding-left:1.2rem">';
+            for (const t of ev.talks) {
+              html += `<li><strong>${t.title}</strong>` + (t.speaker ? ` &mdash; ${t.speaker}` : '') + `</li>`;
+            }
+            html += '</ul>';
+          }
+          if (ev.meetupUrl) {
+            html += `<p><a href="${ev.meetupUrl}" target="_blank" rel="noopener">View on Meetup</a></p>`;
+          }
+          html += `</article>`;
         }
-        const months = Object.keys(groups).sort().reverse();
-        container.innerHTML = months.map(m => {
-          const items = groups[m].map(t => `
-            <article class="talk">
-              <h3>${t.title}</h3>
-              <p><strong>Speaker:</strong> ${t.speaker || 'TBC'}</p>
-              <p><strong>Date:</strong> ${t.date || m}</p>
-              ${t.description ? `<p>${t.description}</p>` : '' }
-              ${t.files && t.files.length ? `
-                <ul>
-                  ${t.files.map(f => `<li><a href="${f.url}" target="_blank" rel="noopener">${f.label}</a></li>`).join('')}
-                </ul>` : ''
-              }
-            </article>
-          `).join('');
-          return `<h2>${m}</h2>${items}`;
-        }).join('');
-      })
-      .catch(() => {
-        document.getElementById('talks').innerHTML = "<p>Could not load talks.</p>";
-      });
+
+        // Render downloadable files from docstore
+        const files = docFiles[m] || [];
+        for (const f of files) {
+          const fileName = f.path.split('/').pop();
+          const ext = fileName.split('.').pop().toUpperCase();
+          const label = fileName.replace(/\.[^.]+$/, '').replace(/_/g, ' ');
+          const url = `${RAW_BASE}/${encodeURIComponent(f.path.split('/')[0])}/${encodeURIComponent(fileName)}`;
+          html += `<article class="talk"><h3>${label}</h3>`;
+          html += `<p><a href="${url}" target="_blank" rel="noopener">Download ${ext}</a></p></article>`;
+        }
+
+        return html;
+      }).join('');
+    })
+    .catch(() => {
+      container.innerHTML = '<p>Could not load talks.</p>';
+    });
   </script>
 </body>
 </html>

@@ -1,0 +1,2439 @@
+[
+  {
+    "title": "Cork|Sec 153",
+    "date": "2026-03-10",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "From voice to influence - How IMS and Telecom Signalling Enable Nation State Disinformation",
+        "speaker": "Mark O'Sullivan"
+      },
+      {
+        "title": "Modern Cybersecurity Threats & AI‑Driven Defences: Protection Against Digital Impersonation & Online Brand Abuse",
+        "speaker": "Priyanka Banik"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 152",
+    "date": "2026-02-10",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Generative AI Deepfakes: Real-World Threats to Facial Biometric Authentication",
+        "speaker": "Daniel Fitzmaurice"
+      },
+      {
+        "title": "All your .ie are belong to us",
+        "speaker": "Danny"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 151",
+    "date": "2025-01-13",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Metrics, Insights… and Surveillance: The Hidden Cost of Personal Health Tech",
+        "speaker": "Johannes Ahlmann"
+      },
+      {
+        "title": "LNK Files: The Shortcut to Initial Access",
+        "speaker": "Dean Brennan"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 150",
+    "date": "2025-12-09",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "The Hitchhiker’s Guide to Building Anything",
+        "speaker": "Kalli Schlauch"
+      },
+      {
+        "title": "GPS interference and issues with it",
+        "speaker": "Patryk Glogowski"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 149",
+    "date": "2025-11-11",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Hidden Networks: How Residential Proxies Fuel Cybercrime and Evolve Bulletproof Hosting",
+        "speaker": "Fyodor Yarochkin"
+      },
+      {
+        "title": "Digital Childhood – Lost Play, New Dangers?",
+        "speaker": "Lajos Záhonyi"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 148",
+    "date": "2025-10-07",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "How can we abuse AI hallucinations to feed the already bloated software supply chain",
+        "speaker": "Nigel Douglas"
+      },
+      {
+        "title": "Rapid DNS Abuse Mitigation: Collaboration, Evidence, and Impact",
+        "speaker": "Rick Hansen"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 147",
+    "date": "2025-09-09",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Threats to cybersecurity careers",
+        "speaker": "Owen O'Connor"
+      },
+      {
+        "title": "The meaning of AISOC (AI-Augmented SOC, Agentic SOC)",
+        "speaker": "Nnamdi Okonkwo"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 146",
+    "date": "2025-08-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "What Chess Players Can Teach Us About Phishing Detection",
+        "speaker": "Ioana Macovei"
+      },
+      {
+        "title": "Navigating the Initial Access Campaign Threat Landscape - Chris Boyton and Ian Kenefick",
+        "speaker": ""
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 145",
+    "date": "2025-07-08",
+    "time": "18:15",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "LLM Mayhem - Hands on Red Teaming LLM Powered Chatbots",
+        "speaker": "Jim Simpson from SANS"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 144",
+    "date": "2025-06-10",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Attacking LLM Detectors with Homoglyph-Based Attacks",
+        "speaker": "Aldan Creo"
+      },
+      {
+        "title": "PKI, TLS, web browsers and certificate revocation - theory vs practice",
+        "speaker": "Ireneusz Pastusiak"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 143",
+    "date": "2025-05-06",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "How we are cutting the branch we are sitting on",
+        "speaker": "Adam Filipczyk"
+      },
+      {
+        "title": "Ghoulish Tactics – How Water Scylla enables initial access for Ransomhub",
+        "speaker": "Ian Kenefick"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "(POSTPONED - SEE NOTES) Cork|Sec 142",
+    "date": "2025-04-08",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 141",
+    "date": "2025-03-11",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Overview of MTU Cyber Innovate Program",
+        "speaker": "Ronan Coleman"
+      },
+      {
+        "title": "AI-Powered Incident Response – Automating Security for Faster Threat Mitigation",
+        "speaker": "Ammar Zeini"
+      },
+      {
+        "title": "From HTTP to HTTPS: The PKI Magic That Keeps the Web Safe",
+        "speaker": "Shubham Sharma"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 140",
+    "date": "2025-02-11",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Bounty Hunting on Hardware",
+        "speaker": "Patryk Glogowski"
+      },
+      {
+        "title": "AI@local - A RAG(s) to (data)-riches story",
+        "speaker": "Maurice Cronin"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 139",
+    "date": "2025-01-14",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "CTI: Navigating the Threat Landscape,",
+        "speaker": "Muhammad Murtuza Hussain"
+      },
+      {
+        "title": "When Data Breaches meet Insurance,",
+        "speaker": "Gerard Barrett"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 138",
+    "date": "2024-12-10",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Are we all going to die in the ditch?",
+        "speaker": "Kalli Schlauch"
+      },
+      {
+        "title": "Demystifying the CISSP with AI",
+        "speaker": "Jerry Looney"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 137",
+    "date": "2024-11-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Pwnagotchi",
+        "speaker": "Patryk Glogowski"
+      },
+      {
+        "title": "Adversary uses of AI & why the technology will hurt them more than help them",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 136",
+    "date": "2024-10-08",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Behind the Scenes of a Phishing Service Takedown",
+        "speaker": "Robert McArdle"
+      },
+      {
+        "title": "Navigating the New Landscape: Water Curupira's Response to Cybercrime Crackdowns",
+        "speaker": "Ian Kenefick"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 135",
+    "date": "2024-09-03",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "DIY BADUSB without soldering",
+        "speaker": "Patryk Glogowski"
+      },
+      {
+        "title": "Fun with QR code",
+        "speaker": "Paul Horgan"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 134",
+    "date": "2024-08-13",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Under the Microscope: A Cybersecurity Pro's Encounter with Wannacry",
+        "speaker": "Simon Whittaker"
+      },
+      {
+        "title": "Introduction to Google Cloud for AWS professionals",
+        "speaker": "Irek Pastusiak"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 133",
+    "date": "2024-07-16",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Mastering Data Security with DSPM: A Data-First Approach",
+        "speaker": "Agata Crowley"
+      },
+      {
+        "title": "Flipper Zero - a Swiss Army Knives for Pentesting",
+        "speaker": "Patryk Glogowski"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 132",
+    "date": "2024-06-04",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 131",
+    "date": "2024-05-14",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Security for non-Technology SMB",
+        "speaker": "Michael O'Connor"
+      },
+      {
+        "title": "5 minute intro to World Skills Cyber Security Competition by Dylan Smyth / George O'Mahony",
+        "speaker": ""
+      },
+      {
+        "title": "Operation Cronos: How is Success Measured",
+        "speaker": "Chris Boyton"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 130",
+    "date": "2024-04-09",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Startup Engineering - What can you do for security?",
+        "speaker": "Ralph Depping and Luis Diogo Couto"
+      },
+      {
+        "title": "Hardening GKE workloads with custom seccomp profiles",
+        "speaker": "Ireneusz Pastusiak"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 129",
+    "date": "2024-03-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "A guide to Data Loss Prevention",
+        "speaker": "Rahul Krishna"
+      },
+      {
+        "title": "Meshtastic decentralised long range communication",
+        "speaker": "Patryk Glogowski"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 128",
+    "date": "2024-02-06",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Navigating you Cyber Security Career - Ciaran Moore & Lisa Lawlor",
+        "speaker": ""
+      },
+      {
+        "title": "Intermediate Maltego Guide Part 1",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 127",
+    "date": "2024-01-09",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Steam Deck and Cybersecurity (What You Should Have Got Your Kids for Christmas)",
+        "speaker": "Andrew Kenneally"
+      },
+      {
+        "title": "Home Automation made easy with Home Assistant! (I may be lying)",
+        "speaker": "Maurice Cronin"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 126",
+    "date": "2023-12-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "Are you really understanding AI? - Demystifying Inaccuracies in Explainable AI",
+        "speaker": "Urja Pawar"
+      },
+      {
+        "title": "Anatomy of the QakBot Botnet: Understanding QakBot Infrastructure, Operations, and Distribution Channels - Ian Kenefick & Chris Boyton",
+        "speaker": ""
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 125",
+    "date": "2023-11-07",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "CryptPad, end-to-end encrypted collaborative office suite",
+        "speaker": "David Benqué"
+      },
+      {
+        "title": "Engineering Security Solutions: Perspectives on developing a Ransomware remediation solution",
+        "speaker": "Donnacha Forde"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 124",
+    "date": "2023-10-10",
+    "time": "19:00",
+    "description": "",
+    "venue": "The Pavilion, Careys Lane, Cork City, IE",
+    "talks": [
+      {
+        "title": "The murky world of the Cybercriminal Underground",
+        "speaker": "Bob McArdle"
+      },
+      {
+        "title": "When AppSec meets NetSec: Exploiting XSS Vulnerabilities on SDN Controllers",
+        "speaker": "Dylan Smyth"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 123",
+    "date": "2023-09-19",
+    "time": "19:00",
+    "description": "",
+    "venue": "Aye, 9 Anglesea Street, Cork, CO, IE",
+    "talks": [
+      {
+        "title": "What Happened in Vegas, Left Vegas: Cool Stuff from DefCon",
+        "speaker": "Andrew Kenneally"
+      },
+      {
+        "title": "SPI Hard! - a n00b's adventure in flash programming",
+        "speaker": "Maurice Cronin"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 122",
+    "date": "2023-08-08",
+    "time": "19:00",
+    "description": "",
+    "venue": "Aye, 9 Anglesea Street, Cork, CO, IE",
+    "talks": [
+      {
+        "title": "Business E-mail Compromise Part 2 : \"Beginners guide to securing M365",
+        "speaker": "Paul Horgan"
+      },
+      {
+        "title": "An Intro to OpenCTI",
+        "speaker": "Robert McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 121",
+    "date": "2023-07-11",
+    "time": "19:00",
+    "description": "",
+    "venue": "Aye, 9 Anglesea Street, Cork, CO, IE",
+    "talks": [
+      {
+        "title": "Trace Labs - Helping those who are lost - Gerard Barrett~~",
+        "speaker": ""
+      },
+      {
+        "title": "Business E-mail Compromise Part 1 : Detection, Analysis, Containment and Eradication - Paul Horgan~~",
+        "speaker": ""
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 120",
+    "date": "2023-06-13",
+    "time": "19:00",
+    "description": "",
+    "venue": "Aye, 9 Anglesea Street, Cork, CO, IE",
+    "talks": [],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 119",
+    "date": "2023-05-09",
+    "time": "19:00",
+    "description": "",
+    "venue": "Aye, 9 Anglesea Street, Cork, CO, IE",
+    "talks": [
+      {
+        "title": "Cyber Career Speaker Series: February - May 2023",
+        "speaker": ""
+      },
+      {
+        "title": "Personal Desktop Security with Linux: Why, What and How to Use It",
+        "speaker": "Andrew Kenneally"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 118",
+    "date": "2023-04-11",
+    "time": "19:00",
+    "description": "",
+    "venue": "Aye, 9 Anglesea Street, Cork, CO, IE",
+    "talks": [
+      {
+        "title": "Cyber Career Speaker Series: February - April 2023",
+        "speaker": ""
+      },
+      {
+        "title": "Personal Desktop Security with Linux: Why, What and How to Use It",
+        "speaker": "Andrew Kenneally"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 117",
+    "date": "2023-03-14",
+    "time": "19:00",
+    "description": "",
+    "venue": "Aye, 9 Anglesea Street, Cork, CO, IE",
+    "talks": [
+      {
+        "title": "Cyber Career Speaker Series: February - April 2023",
+        "speaker": ""
+      },
+      {
+        "title": "Threat Landscape Update",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 116",
+    "date": "2023-02-21",
+    "time": "19:00",
+    "description": "",
+    "venue": "Aye, 9 Anglesea Street, Cork, CO, IE",
+    "talks": [
+      {
+        "title": "Cyber Career Speaker Series: February - April 2023",
+        "speaker": ""
+      },
+      {
+        "title": "Container Security Best Practices on AWS",
+        "speaker": "Alaa Saeed"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 115",
+    "date": "2023-01-10",
+    "time": "19:00",
+    "description": "",
+    "venue": "Aye, 9 Anglesea Street, Cork, CO, IE",
+    "talks": [
+      {
+        "title": "Zero.Trust ... with a Twist",
+        "speaker": "Paul Horgan"
+      },
+      {
+        "title": "Vortimo OSINT tool demo",
+        "speaker": "Robert McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 114",
+    "date": "2022-12-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "Aye, 9 Anglesea Street, Cork, CO, IE",
+    "talks": [
+      {
+        "title": "Automating Penetration Testing using python",
+        "speaker": "Rishabh Kaushik"
+      },
+      {
+        "title": "Insights on Modern Cybercrime Attacks - and how everyone is on the front lines of defence",
+        "speaker": "Robert McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 113",
+    "date": "2022-11-15",
+    "time": "19:00",
+    "description": "",
+    "venue": "Aye, 9 Anglesea Street, Cork, CO, IE",
+    "talks": [
+      {
+        "title": "Adventures in API Hacking",
+        "speaker": "Ciarán Cotter"
+      },
+      {
+        "title": "Cyber ranges for skills, training and research – an overview- Donna O’Shea, George O’Mahony (MTU)",
+        "speaker": ""
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 112",
+    "date": "2022-10-11",
+    "time": "19:00",
+    "description": "",
+    "venue": "Aye, 9 Anglesea Street, Cork, CO, IE",
+    "talks": [
+      {
+        "title": "Pfsense Overview",
+        "speaker": "Paul Horgan"
+      },
+      {
+        "title": "Automating the Implementation of a Cybersecurity Governance, Risk and Compliance Programme using Distributed Ledger Technologies",
+        "speaker": "Andrew Kenneally"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 111",
+    "date": "2022-09-13",
+    "time": "19:00",
+    "description": "",
+    "venue": "Aye, 9 Anglesea Street, Cork, CO, IE",
+    "talks": [
+      {
+        "title": "QUIC - The New Internet",
+        "speaker": "Rahul Krishmna"
+      },
+      {
+        "title": "Simple NetFlow graphing and how to handle big data",
+        "speaker": "Kalli Schlauch"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 110",
+    "date": "2022-08-16",
+    "time": "19:00",
+    "description": "",
+    "venue": "Location not specified yet",
+    "talks": [],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 109 (*** Annual Pub Quiz Edition ***)(Online)",
+    "date": "2022-07-26",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 108",
+    "date": "2022-06-14",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "Intro to Zero Trust",
+        "speaker": "Paul Horgan"
+      },
+      {
+        "title": "Automotive Cybercrime",
+        "speaker": "Robert McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 107",
+    "date": "2022-05-10",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "TOPIC 1: The Rise of the Eternal Botnet",
+        "speaker": "Robert McArdle"
+      },
+      {
+        "title": "TOPIC 2: Talk over the return to Physical CorkSec meetup",
+        "speaker": "Group Discussion"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 106",
+    "date": "2022-04-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "Identity Security: The new Perimeter",
+        "speaker": "Pranav Chugh"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 105",
+    "date": "2022-03-08",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "Backing your Backup: Attacks to NAS Devices",
+        "speaker": "Robert McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 104",
+    "date": "2022-02-08",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "Building Operational Threat Intelligence",
+        "speaker": "Kaushal Parikh"
+      },
+      {
+        "title": "Home-built Cyber Asset Attack Surface Management",
+        "speaker": "Kalli Schlauch"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 103",
+    "date": "2022-01-11",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "VM! Virtualbox! Vagrant! Packer! Ansible!",
+        "speaker": "Maurice Cronin"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 102",
+    "date": "2021-12-14",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "VLAN - NOT a firewall",
+        "speaker": "Paul Horgan"
+      },
+      {
+        "title": "Cybercrime Threat Landscape",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 101",
+    "date": "2021-11-09",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "FHE - Fully Homomorphic encryption",
+        "speaker": "Kalli Schlauch"
+      },
+      {
+        "title": "Introduction to Fuzz Testing (Fuzzing)",
+        "speaker": "Miguel Morillo"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 100",
+    "date": "2021-10-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "Strategizing Threat Intelligence - the hard way",
+        "speaker": "Kaushal Parikh"
+      },
+      {
+        "title": "Blockchain and its evolution as an enterprise technology (Part 2)",
+        "speaker": "Seosaimh O'Shea"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 99",
+    "date": "2021-09-14",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "CyberQuest - building a cyber force in the region",
+        "speaker": "Neil Collins"
+      },
+      {
+        "title": "Blockchain and its evolution as an enterprise technology",
+        "speaker": "Seosaimh O'Shea"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 98",
+    "date": "2021-08-10",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "CDK, CDK. Does what ever a CDK does!",
+        "speaker": ""
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 97 (*** Annual Pub Quiz Edition ***)",
+    "date": "2021-07-13",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "Questions will be multiple choice, and quiz will run for around 90 min, followed",
+        "speaker": "prize giving"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 96",
+    "date": "2021-06-08",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "Intrusion Detection with Honeypots",
+        "speaker": "Ian Kenefick"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 95",
+    "date": "2021-05-11",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "Architecting for Resilience",
+        "speaker": "Joel Aleburu"
+      },
+      {
+        "title": "AWS - The Cloud Strikes Back!",
+        "speaker": ""
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 94",
+    "date": "2021-04-13",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "Sysmon for Windows Logging",
+        "speaker": "Amalkanth Padinjarethottiyil Raveendran"
+      },
+      {
+        "title": "Do the benefits of your social network presence REALLY outweighs the security risks?",
+        "speaker": "Robert Mcardle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 93",
+    "date": "2021-03-09",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "How to Develop a Pentesting Methodology",
+        "speaker": "Artur Serra"
+      },
+      {
+        "title": "Launching CorkSec Slack Channel",
+        "speaker": ""
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 92",
+    "date": "2021-02-09",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "An introduction to Amazon Web Services",
+        "speaker": "Maurice Cronin"
+      },
+      {
+        "title": "Past Present and Future of Criminal Infrastructure",
+        "speaker": "Robert McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 91",
+    "date": "2021-01-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "An introduction to Amazon Web Services",
+        "speaker": "Maurice Cronin"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 90",
+    "date": "2020-12-08",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "Adding security into the Container delivery pipeline",
+        "speaker": "Matija Töpfer"
+      },
+      {
+        "title": "OSCP Ask me Anything",
+        "speaker": "Paul Horgan"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 89",
+    "date": "2020-11-10",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "Container Isolation and Least Privilege (Part 2) - Seosaimh o'Shea",
+        "speaker": ""
+      },
+      {
+        "title": "The Trials and tribulations of securing a CMS",
+        "speaker": "Dean Brennan"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 88",
+    "date": "2020-10-13",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "A New Approach to Enhance Insecure Deserialization Exploitation",
+        "speaker": "Nabigh Nugdallah"
+      },
+      {
+        "title": "Container Isolation and Least Privilege - Seosaimh o'Shea",
+        "speaker": ""
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 87",
+    "date": "2020-09-08",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "Developing a Framework for Threat Hunting within your environment",
+        "speaker": "Tony Loughnane and Michael Walsh"
+      },
+      {
+        "title": "Containerised DevSecOps, or: How I Learned to Stop Worrying and Love DevOps",
+        "speaker": "Steve Giguere"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 86",
+    "date": "2020-08-11",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "CheckRa1n - iOS' rotten Core",
+        "speaker": "Dean Brennan"
+      },
+      {
+        "title": "How not to do Bug Bounties\" ?",
+        "speaker": "Paul Horgan"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 85",
+    "date": "2020-07-14",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "Let's get sassy! (SASE)",
+        "speaker": "Kalli Schlauch"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 84 (*** Annual Pub Quiz Edition ***)",
+    "date": "2020-06-16",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "Questions will be multiple choice, and quiz will run for around 90 min, followed",
+        "speaker": "prize giving"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 83",
+    "date": "2020-05-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "Parental Controls",
+        "speaker": "Johannes Ahlmann"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 82",
+    "date": "2020-04-14",
+    "time": "19:00",
+    "description": "",
+    "venue": "·",
+    "talks": [
+      {
+        "title": "Pi-tricia/Pi-trick the SSL-Stripper (AKA SSLSplit on a RaspberryPi)",
+        "speaker": "Maurice Cronin"
+      },
+      {
+        "title": "Zoom - Security Issues and Reducing the threats",
+        "speaker": "Robbie Lambert"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 80",
+    "date": "2020-02-11",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "Introduction to Buffer Overflow vulnerabilities",
+        "speaker": "Ravi Vashatkar"
+      },
+      {
+        "title": "Securing web applications with minimal resources",
+        "speaker": "Aivaras Prudnikovas"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 79",
+    "date": "2020-01-14",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "Applying an Assume Breach mindset to Cloud Services",
+        "speaker": "Seosaimh O'Shea"
+      },
+      {
+        "title": "AWS Lambda and 3rd party dependencies what could go wrong?",
+        "speaker": "Mark O'Sullivan"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 78",
+    "date": "2019-12-03",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Topic: Covert Channels: A window of Exfiltration Opportunities",
+        "speaker": "Joel Aleburu"
+      },
+      {
+        "title": "Morty and the JuiceShop",
+        "speaker": "Maurice Cronin"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 77",
+    "date": "2019-11-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "Android Privacy",
+        "speaker": "Johannes Ahlmann"
+      },
+      {
+        "title": "Why we need SIEMs",
+        "speaker": "Sai Charan Goud Alligeri"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 76",
+    "date": "2019-10-08",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "Come CTF with us (Part 2) !!",
+        "speaker": "Maurice Cronin and Dhinadhayalan Radha Krishnan"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 75",
+    "date": "2019-09-17",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "Malware Clustering",
+        "speaker": "Ian Kenefick"
+      },
+      {
+        "title": "IOT in the Cybercriminal Underground",
+        "speaker": "Robert McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 74",
+    "date": "2019-08-13",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "Intro to CTF",
+        "speaker": "John O'Riordan"
+      },
+      {
+        "title": "OWASP CTF Projects",
+        "speaker": "Darren Fitzpatrick"
+      },
+      {
+        "title": "Trend Micro Raimund Genes Cup challenge Demo",
+        "speaker": "Robert McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 73",
+    "date": "2019-07-09",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "An introduction to static code analysis with a practical example using Bandit for Python",
+        "speaker": "Yassine Ilmi"
+      },
+      {
+        "title": "Pentesters tool box series part-1: Burpsuite - Dhinadhayalan (Dhina) Radha Krishnan",
+        "speaker": ""
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 72 (*** Annual Pub Quiz Edition ***)",
+    "date": "2019-06-18",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 71",
+    "date": "2019-05-14",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "Basic Tools: Netcat edition",
+        "speaker": "Maurice Cronin"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 70",
+    "date": "2019-04-02",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "HTTP/2 and the changing protocols of the web",
+        "speaker": "Barry Pollard"
+      },
+      {
+        "title": "Vulnerabilities in the Energy and Water sector",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 69",
+    "date": "2019-03-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "Not so Anonymous - Deanonymization of Blockchain Users (Johannes Ahlmann)",
+        "speaker": ""
+      },
+      {
+        "title": "Cybersecurity in the UK, a top down view of the cybersecurity market and what we can learn from it",
+        "speaker": "Austin France"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 68",
+    "date": "2019-02-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "The Fall and Rise of Crypto Fraud",
+        "speaker": "Jack Baylor"
+      },
+      {
+        "title": "Mobile Telecoms Network Security, A Basic overview",
+        "speaker": "Robbie Lambert"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 67",
+    "date": "2019-01-15",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "Cloning around - Will Knott of Tyndall Makerdojo.ie",
+        "speaker": ""
+      },
+      {
+        "title": "Protecting outside the box - the things you likely are not secured against",
+        "speaker": "Robert McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 66",
+    "date": "2018-12-04",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "A Quick Into to Software Defined Radio (SDR)",
+        "speaker": "Shamsul Hassan"
+      },
+      {
+        "title": "Lets Gear up and dissect a malware",
+        "speaker": "Dhinadhayalan Radha Krishnan"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 65",
+    "date": "2018-11-13",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "TALK 1 - Wireshark with WiFi",
+        "speaker": "Keith Walsh"
+      },
+      {
+        "title": "TALK 2 - DIY? Raspberry pi!",
+        "speaker": "Maurice Cronin"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 64",
+    "date": "2018-10-09",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "Learning through doing: CTF Challenges: OSINT Edition",
+        "speaker": "Bob McArdle"
+      },
+      {
+        "title": "Security and End User Readiness in large scale technology projects",
+        "speaker": "Robbie Lambert"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 63",
+    "date": "2018-09-11",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "Summer of the WireShark",
+        "speaker": "Kalli Schauch"
+      },
+      {
+        "title": "2.\"The great escape: transitioning to InfoSec from elsewhere - the what, why and how",
+        "speaker": "Jack Baylor"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 62",
+    "date": "2018-08-13",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "That's not packet tracer... This is a packet tracer! - An Introduction to Wireshark",
+        "speaker": ""
+      },
+      {
+        "title": "Cybercrime in 2018",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 61",
+    "date": "2018-07-11",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "Identity and Access Management",
+        "speaker": "Robert Lambert"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 60 - The Pub Quiz!",
+    "date": "2018-06-26",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 59",
+    "date": "2018-05-08",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "Catch before Release: Catching Ransomware In the Beta stage and creating rules to detect and combat it before its fully released into the wild",
+        "speaker": "Andrew Crowley"
+      },
+      {
+        "title": "Parite back at my house: Spotting Viral file infector techniques, leveraging CyberChef to decipher encrypted code",
+        "speaker": "Adam Martin"
+      },
+      {
+        "title": "How many ways can I transfer thee?",
+        "speaker": "Maurice Cronin"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 58",
+    "date": "2018-04-10",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "Use Cases for Blockchain and Distributed Ledgers",
+        "speaker": "Johannes Ahlmann"
+      },
+      {
+        "title": "View into cracking part 2: KeyGen (Black Magic)",
+        "speaker": "Kalli Schlauch"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 57",
+    "date": "2018-03-13",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "A view into Software Cracking",
+        "speaker": "Kalli Schlauch"
+      },
+      {
+        "title": "Modern Mind Control: Public Opinion Manipulation in Our Online World",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 56",
+    "date": "2018-02-13",
+    "time": "19:00",
+    "description": "",
+    "venue": "An Spailpin Fanach, 27-29 South Main St., Cork, IE",
+    "talks": [
+      {
+        "title": "Wi-Fi monitoring on a budget",
+        "speaker": "Keith Walsh"
+      },
+      {
+        "title": "OSCP-PWK -An Idiots Guide",
+        "speaker": "Maurice Cronin"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 55",
+    "date": "2018-01-09",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Trend on Trend",
+        "speaker": "Robbie O'Sullivan"
+      },
+      {
+        "title": "Threat Intelligence",
+        "speaker": "Lonnie Benavides"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 54",
+    "date": "2017-12-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Threat Intelligence of a brute force attack: the riskypass project",
+        "speaker": "Filippo Sitzia"
+      },
+      {
+        "title": "Q3 CyberCrime Tactics and Techniques",
+        "speaker": "Helge Husemann"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 53",
+    "date": "2017-11-07",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "The Reality and Future of IOT Attacks",
+        "speaker": "Bob McArdle"
+      },
+      {
+        "title": "KRACK - The Key Reinstallation attACK",
+        "speaker": "Keith Walsh"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 52",
+    "date": "2017-10-10",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Building your own USB pen testing tools",
+        "speaker": "Mark O'Sullivan"
+      },
+      {
+        "title": "Using web data as a source of Open Source Intelligence",
+        "speaker": "Johannes Ahlmann"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec 51",
+    "date": "2017-09-05",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Metasploit, huh, yeah,What is it good for?Absolutely everything!",
+        "speaker": "Maurice Cronin"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 50",
+    "date": "2017-08-08",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Data exfiltration from a corporate environment through a simple covert channel",
+        "speaker": "Pedro Laguna and Yassine Ilmi"
+      },
+      {
+        "title": "USB as an Attack Vector",
+        "speaker": "Mark O'Sullivan"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 49",
+    "date": "2017-07-11",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Enterprise Databases and Ransomware",
+        "speaker": "Markus Strauss"
+      },
+      {
+        "title": "Web 3.0: Blockchain and Decentralised Apps\".",
+        "speaker": "Brendan Dillon"
+      },
+      {
+        "title": "Some IoT applications and how their security can be enhanced",
+        "speaker": "blockchain"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 48",
+    "date": "2017-06-13",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 47",
+    "date": "2017-05-09",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "I've built a better (pentesting) playground, but what do I do with it now?!?",
+        "speaker": "Maurice Cronin"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 46",
+    "date": "2017-04-04",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Botting in Games and affect on Online Economies",
+        "speaker": "Gerard Morris"
+      },
+      {
+        "title": "Build yourself a better (pentesting) playground!",
+        "speaker": "Maurice Cronin"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 45",
+    "date": "2017-03-07",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "A look at the 'Hak5 Essentials Toolkit",
+        "speaker": "Dylan Smyth"
+      },
+      {
+        "title": "Securing C Suite meeting rooms with TCSM",
+        "speaker": "Jeremiah Kelly"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 43",
+    "date": "2017-01-10",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "The Evolving state of HTTPS",
+        "speaker": "Barry Pollard"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 42",
+    "date": "2016-12-06",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Malware Analysis for Beginners: An introduction to Static and Behavioural Analysis",
+        "speaker": "Jack Baylor"
+      },
+      {
+        "title": "Profile of Banking Criminal network",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 41",
+    "date": "2016-11-08",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "The Dark Net, how big is the internet and what are the implications",
+        "speaker": "Ron Williams"
+      },
+      {
+        "title": "The evolution of ATM Malware",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 40",
+    "date": "2016-10-11",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 39",
+    "date": "2016-09-13",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Insider Threats - Part 2",
+        "speaker": "Michelle Murphy"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 38",
+    "date": "2016-08-09",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Cracking Enigma",
+        "speaker": "Mike Costello"
+      },
+      {
+        "title": "Targeted Attacks: More FUD than APT",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 37",
+    "date": "2016-07-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Malicious Documents",
+        "speaker": "Guido Denzler"
+      },
+      {
+        "title": "Exploiting Pitfalls in Software-Defined Networking Implementation",
+        "speaker": "Dylan Smyth"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 36",
+    "date": "2016-06-14",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 35",
+    "date": "2016-05-10",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Learning to Learn to Teach",
+        "speaker": "John Corkish"
+      },
+      {
+        "title": "Maltego 4.0 - Sneak Peak & some fun Demos",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 34",
+    "date": "2016-04-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Sandstorm - making it simple to securely host open source web apps",
+        "speaker": "Tom Atkins"
+      },
+      {
+        "title": "The differences and niches in the different major criminal undergrounds",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 33",
+    "date": "2016-03-08",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "MongoDB Security and NoSQL Injection",
+        "speaker": "Damilare Fagbemi"
+      },
+      {
+        "title": "Malicious Documents",
+        "speaker": "Guido Denzler"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 32",
+    "date": "2016-02-09",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 31",
+    "date": "2016-01-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Insider Threats [Part 2]",
+        "speaker": "Michelle Murphy"
+      },
+      {
+        "title": "Phishing Pen-Testing",
+        "speaker": "Niall O'Farrell"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 30",
+    "date": "2015-12-01",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Insider Threats",
+        "speaker": "Michael Costello"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 29",
+    "date": "2015-11-10",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Wayward WiFi",
+        "speaker": "Paul Ryan"
+      },
+      {
+        "title": "Cybercrime in the Deepweb",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 28",
+    "date": "2015-10-06",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Software Defined Networking (SDN)",
+        "speaker": "Dylan Smyth"
+      },
+      {
+        "title": "Keylogger Investigation Case Studies",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 27",
+    "date": "2015-09-01",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "IBM X-Force Exchange",
+        "speaker": "Walter Higgins"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 26",
+    "date": "2015-08-04",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Tips on Techie FYP",
+        "speaker": "Dylan Smyth"
+      },
+      {
+        "title": "Maltego 102: Maltego Cookbook",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 25",
+    "date": "2015-07-14",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Windows Forensics, An overview",
+        "speaker": "Jack Baylor"
+      },
+      {
+        "title": "From Flows to Sprays",
+        "speaker": "Eoin Carroll"
+      },
+      {
+        "title": "Mobile Phone Forensics:",
+        "speaker": "Michael Walsh"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 24 (Pub Quiz)",
+    "date": "2015-06-02",
+    "time": "19:00",
+    "description": "",
+    "venue": "Location not specified yet",
+    "talks": [],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 23",
+    "date": "2015-05-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Jumble Email Encryption",
+        "speaker": "Emmet Kearney"
+      },
+      {
+        "title": "Predicting disease spread with machine learning",
+        "speaker": "Chris Murphy"
+      },
+      {
+        "title": "WTFi (What The Fidelity)",
+        "speaker": "John Foley"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup 22",
+    "date": "2015-04-07",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Inner workings of a SOC",
+        "speaker": "Alex Feick"
+      },
+      {
+        "title": "Targeted attack case study",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #21",
+    "date": "2015-03-03",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "The ultimate techie hack - Free Coffee with NFC!",
+        "speaker": "Ilja"
+      },
+      {
+        "title": "Physical Security 101 - Pin Tumbler locks",
+        "speaker": "Dylan Smith"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #20",
+    "date": "2015-02-03",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Security in the Cloud",
+        "speaker": "Gareth Price"
+      },
+      {
+        "title": "Mapping Cork City",
+        "speaker": "Paul Lee"
+      },
+      {
+        "title": "Barricade.io",
+        "speaker": "David Coallier"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #19",
+    "date": "2015-01-13",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Kerberos primer",
+        "speaker": "Jack Baylor"
+      },
+      {
+        "title": "Deep Dive on CVE-2014-6324",
+        "speaker": "Jack Baylor"
+      },
+      {
+        "title": "How UCC responded to the Out of Band Patch",
+        "speaker": "Anthony Crotty"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #18",
+    "date": "2014-12-02",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Barricade.io",
+        "speaker": "David Coallier"
+      },
+      {
+        "title": "Honeypot project : call for participants",
+        "speaker": "Dylan Smyth"
+      },
+      {
+        "title": "DNS Cache Poisoning",
+        "speaker": "Vincent Ryan"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #17",
+    "date": "2014-11-11",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Netcat 101",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #16",
+    "date": "2014-10-07",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "An Overview of the ShellShock / Bash Vulnerability (approx 20 mins)",
+        "speaker": "Daniel O'Regan"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #15",
+    "date": "2014-09-02",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Web to Shell",
+        "speaker": "Darren Fitzpatrick"
+      },
+      {
+        "title": "How I got into Security",
+        "speaker": "Jack Baylor"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #14",
+    "date": "2014-08-05",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Volatility Framework",
+        "speaker": "Eamonn Ryan"
+      },
+      {
+        "title": "The OWASP top 10",
+        "speaker": "Fiona Collins"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #13",
+    "date": "2014-07-08",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Memory hacking games with Artmoney and Freedom.apk",
+        "speaker": "Gerard Morris"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #12 (Pub Quiz)",
+    "date": "2014-06-03",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #11",
+    "date": "2014-05-06",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Raspberry Pi Project - Parental Control, Adblocking and IDS for $50",
+        "speaker": "Jim Curtin"
+      },
+      {
+        "title": "The RasPi is a fantastic general purpose and very cheap computer. Jim will step us through his thesis project where he set one up to be an all in one inline security device for the home. - Building your own PWNPad (and what you can do with it)",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #10",
+    "date": "2014-04-08",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Building your own PWNPad (and what you can do with it)",
+        "speaker": "Bob McArdle"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #9",
+    "date": "2014-03-11",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [
+      {
+        "title": "Intro to 3D Printing",
+        "speaker": "Paul Lee"
+      },
+      {
+        "title": "BitCoin - Concept, Technology and Infrastrucure",
+        "speaker": "Gary Mulder"
+      }
+    ],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #8",
+    "date": "2014-02-26",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #7",
+    "date": "2014-01-07",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #6",
+    "date": "2013-12-03",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [],
+    "meetupUrl": ""
+  },
+  {
+    "title": "Cork|Sec Meetup #5 (Wifi Attacks / Smart Meter Security)",
+    "date": "2013-11-12",
+    "time": "19:00",
+    "description": "",
+    "venue": "Soho Bar, Grand Parade, Cork, IE",
+    "talks": [],
+    "meetupUrl": ""
+  }
+]

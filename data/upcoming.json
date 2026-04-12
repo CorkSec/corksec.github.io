@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Cork|Sec 154",
+    "date": "2026-04-14",
+    "time": "19:00",
+    "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
+    "venue": "The Pavilion, Careys Lane, Cork City",
+    "talks": [
+      {
+        "title": "Subsea Cables, Intelligence Operations, and where EU Cyber Resilience might fail",
+        "speaker": "Daniel Cagney"
+      }
+    ],
+    "meetupUrl": "https://www.meetup.com/corksec/events/311100610/"
+  },
+  {
+    "title": "Cork|Sec 155",
+    "date": "2026-05-12",
+    "time": "19:00",
+    "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
+    "venue": "The Pavilion, Careys Lane, Cork City",
+    "talks": [],
+    "meetupUrl": "https://www.meetup.com/corksec/events/311100613/"
+  },
+  {
+    "title": "Cork|Sec 156",
+    "date": "2026-06-09",
+    "time": "19:00",
+    "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
+    "venue": "The Pavilion, Careys Lane, Cork City",
+    "talks": [
+      {
+        "title": "Understanding and mapping AI Security Risks through AI-HOCs",
+        "speaker": "Ojasvi Gupta"
+      },
+      {
+        "title": "E2EE Key Storage Evolution & Passkey PRFs",
+        "speaker": "Sean Byrne"
+      }
+    ],
+    "meetupUrl": "https://www.meetup.com/corksec/events/311100614/"
+  },
+  {
+    "title": "Cork|Sec 157",
+    "date": "2026-07-14",
+    "time": "19:00",
+    "description": "**(\\*\\*\\* Annual Pub Quiz Edition \\*\\*\\*)**\nEvery 12 months we take a break from our normal talks to celebrate our anniversary with a free, friendly and geeky pub quiz. Expect a night with random security and tech trivia, random facts, lots of fun and prizes!",
+    "venue": "The Pavilion, Careys Lane, Cork City",
+    "talks": [],
+    "meetupUrl": "https://www.meetup.com/corksec/events/311100616/"
+  },
+  {
+    "title": "Cork|Sec 158",
+    "date": "2026-08-11",
+    "time": "19:00",
+    "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
+    "venue": "The Pavilion, Careys Lane, Cork City",
+    "talks": [
+      {
+        "title": "Adopting AI for Threat Defense: What Actually Works (and What’s Still Hype)",
+        "speaker": "Saurabh Khadtare"
+      }
+    ],
+    "meetupUrl": "https://www.meetup.com/corksec/events/311100619/"
+  },
+  {
+    "title": "Cork|Sec 159",
+    "date": "2026-09-08",
+    "time": "19:00",
+    "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
+    "venue": "The Pavilion, Careys Lane, Cork City",
+    "talks": [],
+    "meetupUrl": "https://www.meetup.com/corksec/events/311100622/"
+  },
+  {
+    "title": "Cork|Sec 160",
+    "date": "2026-10-13",
+    "time": "19:00",
+    "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
+    "venue": "The Pavilion, Careys Lane, Cork City",
+    "talks": [],
+    "meetupUrl": "https://www.meetup.com/corksec/events/311100625/"
+  }
+]
