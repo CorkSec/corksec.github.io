@@ -47,8 +47,8 @@
 
     // Fetch both data sources in parallel
     Promise.all([
-      fetch(API_URL).then(r => r.ok ? r.json() : Promise.reject(r.status)),
-      fetch('data/past-events.json').then(r => r.ok ? r.json() : [])
+      fetch(API_URL).then(r => r.ok ? r.json() : { tree: [] }).catch(() => ({ tree: [] })),
+      fetch('data/past-events.json').then(r => r.ok ? r.json() : []).catch(() => [])
     ])
     .then(([docstoreData, pastEvents]) => {
       // Build docstore file groups keyed by YYYY-MM
@@ -94,7 +94,9 @@
           if (ev.talks && ev.talks.length) {
             html += '<ul style="margin:.4rem 0;padding-left:1.2rem">';
             for (const t of ev.talks) {
-              html += `<li><strong>${t.title}</strong>` + (t.speaker ? ` &mdash; ${t.speaker}` : '') + `</li>`;
+              html += `<li><strong>${t.title}</strong>`;
+              if (t.description) html += `<br><small>${t.description}</small>`;
+              html += `</li>`;
             }
             html += '</ul>';
           }

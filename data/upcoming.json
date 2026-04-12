@@ -5,12 +5,7 @@
     "time": "19:00",
     "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
     "venue": "The Pavilion, Careys Lane, Cork City",
-    "talks": [
-      {
-        "title": "Subsea Cables, Intelligence Operations, and where EU Cyber Resilience might fail",
-        "speaker": "Daniel Cagney"
-      }
-    ],
+    "talks": [],
     "meetupUrl": "https://www.meetup.com/corksec/events/311100610/"
   },
   {
@@ -28,16 +23,7 @@
     "time": "19:00",
     "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
     "venue": "The Pavilion, Careys Lane, Cork City",
-    "talks": [
-      {
-        "title": "Understanding and mapping AI Security Risks through AI-HOCs",
-        "speaker": "Ojasvi Gupta"
-      },
-      {
-        "title": "E2EE Key Storage Evolution & Passkey PRFs",
-        "speaker": "Sean Byrne"
-      }
-    ],
+    "talks": [],
     "meetupUrl": "https://www.meetup.com/corksec/events/311100614/"
   },
   {
@@ -55,12 +41,7 @@
     "time": "19:00",
     "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
     "venue": "The Pavilion, Careys Lane, Cork City",
-    "talks": [
-      {
-        "title": "Adopting AI for Threat Defense: What Actually Works (and What’s Still Hype)",
-        "speaker": "Saurabh Khadtare"
-      }
-    ],
+    "talks": [],
     "meetupUrl": "https://www.meetup.com/corksec/events/311100619/"
   },
   {

@@ -93,7 +93,8 @@ Cork|Sec Team (<a href="https://www.linkedin.com/in/robertmcardle/">Bob</a>, <a 
             if (ev.talks && ev.talks.length) {
               talks = '<ul style="margin:.5rem 0 0;padding-left:1.2rem">' +
                 ev.talks.map(function(t) {
-                  return '<li><strong>' + t.title + '</strong>' + (t.speaker ? ' &mdash; ' + t.speaker : '') + '</li>';
+                  return '<li><strong>' + t.title + '</strong>' +
+                    (t.description ? '<br><small>' + t.description + '</small>' : '') + '</li>';
                 }).join('') + '</ul>';
             }
             var link = ev.meetupUrl ? '<p style="margin-top:.5rem"><a href="' + ev.meetupUrl + '" target="_blank" rel="noopener">View on Meetup</a></p>' : '';

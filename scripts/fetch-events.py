@@ -151,24 +151,42 @@ def parse_events(apollo_state):
 
 
 def parse_talks_from_description(description):
-    """Extract individual talk titles and speakers from event description."""
+    """Extract individual talks from event description.
+
+    Each talk has a 'title' (the full TALK line including speaker) and a
+    'description' (the paragraph text following the title line).
+    """
     talks = []
     if not description:
         return talks
 
-    # Strip HTML tags for parsing
+    # Strip HTML tags, split into lines
     text = re.sub(r"<[^>]+>", "\n", description)
+    lines = text.split("\n")
 
-    # Look for patterns like "TALK 1: Title by Speaker" or "Talk: Title - Speaker"
-    talk_pattern = re.compile(
-        r"TALK\s*\d*\s*[:\-]\s*(.+?)(?:\s+[-\u2013\u2014]\s*by\s+|\s+by\s+)(.+?)$",
-        re.IGNORECASE | re.MULTILINE,
-    )
-    for match in talk_pattern.finditer(text):
-        title = match.group(1).strip().rstrip(" -\u2013\u2014").strip("*")
-        speaker = match.group(2).strip().rstrip(".").strip("*")
-        if title and speaker:
-            talks.append({"title": title, "speaker": speaker})
+    # Find talk-title line indices
+    talk_re = re.compile(r"^TALK\s*\d*\s*[:\-]", re.IGNORECASE)
+    title_indices = [i for i, ln in enumerate(lines) if talk_re.match(ln.strip())]
+
+    for idx, ti in enumerate(title_indices):
+        raw_title = lines[ti].strip().strip("*").strip()
+        # Collect description lines until next talk or double blank
+        desc_parts = []
+        start = ti + 1
+        end = title_indices[idx + 1] if idx + 1 < len(title_indices) else len(lines)
+        blank_run = 0
+        for j in range(start, end):
+            ln = lines[j].strip()
+            if not ln:
+                blank_run += 1
+                if blank_run >= 2:
+                    break
+                continue
+            blank_run = 0
+            desc_parts.append(ln.strip("*").strip())
+        talk_desc = " ".join(desc_parts).strip()
+        if raw_title:
+            talks.append({"title": raw_title, "description": talk_desc})
 
     return talks
 
