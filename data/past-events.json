@@ -1183,6 +1183,10 @@
       {
         "title": "Topic: Covert Channels: A window of Exfiltration Opportunities - Joel Aleburu",
         "description": "A covert channel is an attack that creates a capability to transfer information objects between processes that are not supposed to be allowed to communicate by a computer security policy. Covert channels are easily used to exfiltrate data from a secure location especially over a long period of time. Generally, covert channels are usually very difficult to detect due to their ability to use existing legitimate connections hence raising as little red flags as possible. In this talk, Joel Aleburu would give an overview of Covert channels; what they are, the different types, how they function, how to detect and mitigate against them. Morty and the JuiceShop - Maurice Cronin Poor Morty has forgotten his JuiceShop password and Grandpa Rick wants his Juice now! Can we help Morty reset his password before Rick blows everything up? Tonight, as part of our on-going CTF series, we're going to re-visit OWASP's JuiceShop and take a look at one of the tier 5 challenges - Reset Morty's Password. We'll break the problem down to identify what we do know, what we need to know solve it and then prepare the scripts needed to reset poor Morty's password."
+      },
+      {
+        "title": "Morty and the JuiceShop - Maurice Cronin",
+        "description": "Poor Morty has forgotten his JuiceShop password and Grandpa Rick wants his Juice now! Can we help Morty reset his password before Rick blows everything up? Tonight, as part of our on-going CTF series, we're going to re-visit OWASP's JuiceShop and take a look at one of the tier 5 challenges - Reset Morty's Password. We'll break the problem down to identify what we do know, what we need to know solve it and then prepare the scripts needed to reset poor Morty's password."
       }
     ],
     "meetupUrl": ""
