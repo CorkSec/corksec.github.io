@@ -7,12 +7,12 @@
     "venue": "The Pavilion, Careys Lane, Cork City",
     "talks": [
       {
-        "title": "Getting hands-on with OWASP Top 10 for LLM apps - Nigel Douglas",
-        "description": "The OWASP Top 10 for Large Language Model Applications started in 2023 as a community-driven effort to highlight and address security issues specific to LLM-based AI applications. Since then, the technology has continued to spread across industries and applications, and so have the associated risks. In this session, Nigel will highlight these risks, providing practical guidance around prompt injection attacks, data and model poisoning, system prompt leakage, supply chain risks and more."
+        "title": "TALK 1: Getting hands-on with OWASP Top 10 for LLM apps - Nigel Douglas",
+        "description": "The OWASP Top 10 for Large Language Model Applications started in 2023 as a community-driven effort to highlight and address security issues specific to LLM-based AI applications. Since then, the technology has continued to spread across industries and applications, and so have the associated risks. As LLMs are embedded more deeply in everything from customer interactions to internal operations, developers and security professionals are discovering new vulnerabilities and, naturally, cool new ways to counter them. In this session, Nigel will show highlight these risks, providing practical guidance around prompt injection attacks. data and model poisoing, system prompt leakage, supply chain risks and so much more. He'll even discuss how to deploy your own local LLM to start testing out these hacks, security guardrails and more."
       },
       {
-        "title": "Subsea Cables, Intelligence Operations, and where EU Cyber Resilience might fail - Daniel Cagney",
-        "description": "Subsea cables underpin the internet, financial services and critical industries yet sit outside most cyber threat models. This talk explores why repair delay has become a systemic operational risk that cyber regulation quietly assumes away and why Ireland's digital position makes that risk impossible to ignore."
+        "title": "TALK 2: Subsea Cables, Intelligence Operations, and where EU Cyber Resilience might fail - by Daniel Cagney",
+        "description": "Subsea cables underpin the internet, financial services and critical industries yet sit outside most cyber threat models. This talk explores why repair delay has become a systemic operational risk that cyber regulation quietly assumes away and why Ireland’s digital position makes that risk impossible to ignore."
       }
     ],
     "meetupUrl": "https://www.meetup.com/corksec/events/311100610/"
@@ -23,7 +23,16 @@
     "time": "19:00",
     "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
     "venue": "The Pavilion, Careys Lane, Cork City",
-    "talks": [],
+    "talks": [
+      {
+        "title": "TALK 1: TBC",
+        "description": ""
+      },
+      {
+        "title": "TALK 2: TBC",
+        "description": ""
+      }
+    ],
     "meetupUrl": "https://www.meetup.com/corksec/events/311100613/"
   },
   {
@@ -32,7 +41,16 @@
     "time": "19:00",
     "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
     "venue": "The Pavilion, Careys Lane, Cork City",
-    "talks": [],
+    "talks": [
+      {
+        "title": "TALK 1: Understanding and mapping AI Security Risks through AI-HOCs by Ojasvi Gupta",
+        "description": "We present AI-HOC, a formal extension of classical process Hazard Observation Cards to AI systems. By mapping guidewords to AI failure modes, we construct a systematic hazard taxonomy spanning cybersecurity, privacy, bias, and autonomy risks. The framework integrates severity through likelihood risk scoring and safeguard classification. We discuss how AI-HAZOP supports safety cases, assurance arguments, and regulatory compliance, and highlight open challenges in emergent agent behavior and reward misalignment. supports safety cases, assurance arguments, and regulatory complian"
+      },
+      {
+        "title": "TALK 2: E2EE Key Storage Evolution & Passkey PRFs by Sean Byrne",
+        "description": "Passkeys changed authentication. The WebAuthn PRF extension looks set to change how we handle end-to-end encryption key storage as well. End-to-end encrypted systems like WhatsApp or Signal have had to grapple with an awkward question: where do the encryption keys actually live? Early approaches leaned on password-derived keys. Later designs moved toward device-bound keys with separate backup schemes bolted on. Signal protects backup keys using user-chosen PINs combined with hardware security modules and strict rate limiting. These are all carefully designed to reduce server trust while still allowing recovery. Passkey PRFs point to a different way of doing things. Instead of keeping authentication and encryption roots separate, they allow encryption key material to be deterministically derived from the same hardware-protected credential used for login. This talk walks through the evolution of E2EE key storage (Signal, WhatsApp, icloud) and makes the case that passkey PRFs join authentication credentials and encryption root material into a single primitive and explores what that shift could mean for the next generation of secure system design."
+      }
+    ],
     "meetupUrl": "https://www.meetup.com/corksec/events/311100614/"
   },
   {
@@ -50,7 +68,16 @@
     "time": "19:00",
     "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
     "venue": "The Pavilion, Careys Lane, Cork City",
-    "talks": [],
+    "talks": [
+      {
+        "title": "TALK 1: Adopting AI for Threat Defense: What Actually Works (and What’s Still Hype) by Saurabh Khadtare",
+        "description": "A lot of people in security are understandably skeptical of “AI” right now. Marketing slides promise fully autonomous SOC's, while real defenders are still drowning in huge alerts and brittle detection logic. At the same time, attackers are already using automation and AI‑adjacent tooling to scale phishing, brute forcing, credential abuse, and exploitation, so a purely manual defensive approach is becoming unrealistic. In this talk, I’ll share practical lessons from working as a security engineer and Pentester on how AI is actually starting to help with threat defense, and where it absolutely should not be trusted on its own. I’ll break “AI for defense” into three buckets: classical ML/UEBA and anomaly detection, AI‑powered SOC automation for triage and noise reduction, and LLM‑based that help with summarizing incidents, writing queries/rules, and translating technical findings for non‑technical stakeholders. For each bucket, I’ll walk through concrete workflows and examples (using redacted or synthetic data) showing what sucked before, what AI does better, and what still needs a human in the loop. I’ll also cover the major limitations and risks: hallucinations, weak multi‑step reasoning, prompt injection, and new attack surfaces introduced by LLMs and vendor tools. The goal is to give the audience a realistic blueprint for where AI can safely augment defenders today, and where “AI‑only” approaches are still pure hype."
+      },
+      {
+        "title": "TALK 2: TBC",
+        "description": ""
+      }
+    ],
     "meetupUrl": "https://www.meetup.com/corksec/events/311100619/"
   },
   {
@@ -59,7 +86,16 @@
     "time": "19:00",
     "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
     "venue": "The Pavilion, Careys Lane, Cork City",
-    "talks": [],
+    "talks": [
+      {
+        "title": "TALK 1: TBC",
+        "description": ""
+      },
+      {
+        "title": "TALK 2: TBC",
+        "description": ""
+      }
+    ],
     "meetupUrl": "https://www.meetup.com/corksec/events/311100622/"
   },
   {
@@ -68,7 +104,16 @@
     "time": "19:00",
     "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
     "venue": "The Pavilion, Careys Lane, Cork City",
-    "talks": [],
+    "talks": [
+      {
+        "title": "TALK 1: TBC",
+        "description": ""
+      },
+      {
+        "title": "TALK 2: TBC",
+        "description": ""
+      }
+    ],
     "meetupUrl": "https://www.meetup.com/corksec/events/311100625/"
   }
 ]

@@ -164,9 +164,9 @@ def parse_talks_from_description(description):
     text = re.sub(r"<[^>]+>", "\n", description)
     lines = text.split("\n")
 
-    # Find talk-title line indices
+    # Find talk-title line indices (strip markdown bold ** before matching)
     talk_re = re.compile(r"^TALK\s*\d*\s*[:\-]", re.IGNORECASE)
-    title_indices = [i for i, ln in enumerate(lines) if talk_re.match(ln.strip())]
+    title_indices = [i for i, ln in enumerate(lines) if talk_re.match(ln.strip().strip("*").strip())]
 
     for idx, ti in enumerate(title_indices):
         raw_title = lines[ti].strip().strip("*").strip()
