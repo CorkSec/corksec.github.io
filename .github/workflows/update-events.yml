@@ -20,6 +20,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Archive past events
+        run: python scripts/archive-events.py
+
       - name: Fetch upcoming events from Meetup
         run: python scripts/fetch-events.py
 
@@ -27,10 +30,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/upcoming.json
+          git add data/upcoming.json data/past-events.json
           if git diff --cached --quiet; then
-            echo "No changes to upcoming events."
+            echo "No changes to events."
           else
-            git commit -m "Update upcoming events data"
+            git commit -m "Update events data"
             git push
           fi
