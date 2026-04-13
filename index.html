@@ -87,24 +87,49 @@ Cork|Sec Team (<a href="https://www.linkedin.com/in/robertmcardle/">Bob</a>, <a 
           }
           box.innerHTML = events.map(function(ev) {
             var d = ev.date ? new Date(ev.date + 'T' + (ev.time || '00:00')) : null;
-            var dateStr = d ? d.toLocaleDateString('en-IE', { weekday: 'short', year: 'numeric', month: 'long', day: 'numeric' }) : '';
-            var timeStr = ev.time || '';
-            var talks = '';
-            if (ev.talks && ev.talks.length) {
-              talks = '<ul style="margin:.5rem 0 0;padding-left:1.2rem">' +
-                ev.talks.map(function(t) {
-                  return '<li><strong>' + t.title + '</strong>' +
-                    (t.description ? '<br><small>' + t.description + '</small>' : '') + '</li>';
-                }).join('') + '</ul>';
+            var weekday = d ? d.toLocaleDateString('en-IE', { weekday: 'short' }) : '';
+            var month   = d ? d.toLocaleDateString('en-IE', { month: 'short' })   : '';
+            var dayNum  = d ? d.getDate() : '';
+
+            // "Tue, Apr 14 · 19:00 – 21:00"
+            var endTime = ev.endTime || '';
+            if (!endTime && ev.time) {
+              var parts = ev.time.split(':');
+              endTime = String(Number(parts[0]) + 2).padStart(2, '0') + ':' + parts[1];
             }
-            var link = ev.meetupUrl ? '<p style="margin-top:.5rem"><a href="' + ev.meetupUrl + '" target="_blank" rel="noopener">View on Meetup</a></p>' : '';
-            return '<article class="talk">' +
-              '<h3>' + ev.title + '</h3>' +
-              '<p>' + dateStr + (timeStr ? ' at ' + timeStr : '') +
-              (ev.venue ? ' &mdash; ' + ev.venue : '') + '</p>' +
-              (ev.description ? '<p>' + ev.description + '</p>' : '') +
-              talks + link +
-              '</article>';
+            var timeLine = d
+              ? weekday + ', ' + month + ' ' + dayNum + (ev.time ? ' &middot; ' + ev.time + (endTime ? ' – ' + endTime : '') : '')
+              : '';
+
+            var hasTalks = ev.talks && ev.talks.length;
+            var talks = '';
+            if (hasTalks) {
+              talks = '<div class="event-talks">' +
+                ev.talks.map(function(t) {
+                  return '<div class="event-talk"><strong>' + t.title + '</strong>' +
+                    (t.description ? '<small>' + t.description + '</small>' : '') + '</div>';
+                }).join('') + '</div>';
+            }
+
+            var descClass = hasTalks ? 'event-desc de-emphasised' : 'event-desc';
+            var desc = ev.description ? '<p class="' + descClass + '">' + ev.description + '</p>' : '';
+            var link = ev.meetupUrl
+              ? '<a class="event-cta" href="' + ev.meetupUrl + '" target="_blank" rel="noopener">Attend on Meetup</a>'
+              : '';
+
+            return '<article class="event-card">' +
+              '<div class="event-date-badge">' +
+                '<span class="badge-weekday">' + weekday + '</span>' +
+                '<span class="badge-day">' + dayNum + '</span>' +
+                '<span class="badge-month">' + month + '</span>' +
+              '</div>' +
+              '<div class="event-details">' +
+                '<h3>' + ev.title + '</h3>' +
+                (timeLine ? '<p class="event-meta"><span class="meta-icon">&#128197;</span>' + timeLine + '</p>' : '') +
+                (ev.venue ? '<p class="event-meta"><span class="meta-icon">&#128205;</span>' + ev.venue + '</p>' : '') +
+                desc + talks + link +
+              '</div>' +
+            '</article>';
           }).join('');
         })
         .catch(function() {

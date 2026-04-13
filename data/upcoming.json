@@ -5,7 +5,16 @@
     "time": "19:00",
     "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
     "venue": "The Pavilion, Careys Lane, Cork City",
-    "talks": [],
+    "talks": [
+      {
+        "title": "Getting hands-on with OWASP Top 10 for LLM apps - Nigel Douglas",
+        "description": "The OWASP Top 10 for Large Language Model Applications started in 2023 as a community-driven effort to highlight and address security issues specific to LLM-based AI applications. Since then, the technology has continued to spread across industries and applications, and so have the associated risks. In this session, Nigel will highlight these risks, providing practical guidance around prompt injection attacks, data and model poisoning, system prompt leakage, supply chain risks and more."
+      },
+      {
+        "title": "Subsea Cables, Intelligence Operations, and where EU Cyber Resilience might fail - Daniel Cagney",
+        "description": "Subsea cables underpin the internet, financial services and critical industries yet sit outside most cyber threat models. This talk explores why repair delay has become a systemic operational risk that cyber regulation quietly assumes away and why Ireland's digital position makes that risk impossible to ignore."
+      }
+    ],
     "meetupUrl": "https://www.meetup.com/corksec/events/311100610/"
   },
   {
