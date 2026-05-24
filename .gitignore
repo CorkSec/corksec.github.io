@@ -1,2 +1,7 @@
 # IDE
 .idea/
+
+# Scratch/working data files
+data/past-events_OLD.json
+data/past-events_incomplete.json
+past_talks_scrape.txt
