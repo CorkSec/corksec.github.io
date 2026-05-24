@@ -4,14 +4,19 @@
     "date": "2026-05-12",
     "time": "19:00",
     "venue": "The Pavilion, Careys Lane, Cork City",
+    "description": "FREE PIZZA: Served at 18:45-19:00 First come, first served. When its gone - its gone (spoiler: it won't last until 19:00 :) )",
     "talks": [
       {
-        "title": "TALK 1: TBC",
-        "description": ""
+        "title": "TALK 1: Panel discussion amongst cybersecurity professionals talking about how they got into cybersecurity and their career progression - by Cyber Ireland",
+        "description": "The event will provide attendees with practical insights, mentorship, and pathways into cybersecurity careers—whether they are early‑career professionals, students, career‑switchers, or established practitioners seeking to upskill. Attendees will get real, practical advice from cybersecurity professionals about how they entered the field and what skills employers actually look for. Moderator: Ciaran Luttrell, VP Global SOC Operations, eSentire. Panel: Louis Coleman - SOC Operations Team Lead, eSentire; Vanda Badura, Senior Information Security Analyst, McKesson; Sharon Hanafin - Senior Cloud Cybersecurity Engineer, Dell Technologies."
       },
       {
-        "title": "TALK 2: TBC",
-        "description": ""
+        "title": "TALK 2: Guest Talk - by Rob Fuller",
+        "description": "Rob Fuller, also know as @mubix online, is VP at McKesson and a 25-year veteran of the offensive side of the keyboard, with stops at the Pentagon, Uber, GE, and United Airlines along the way. He's a 14-year Black Hat instructor, DEF CON regular, and was a senior technical advisor on HBO's Silicon Valley. He hosted two shows on Hak5, helped invent the Hak5 Pineapple and Bash Bunny, and is a frequent guest on the infosec podcast circuit. On the community side, he co-founded NoVA Hackers, founded the Vulnerability Management Research Group, runs restincode.com, and volunteers as red team at CCDC and ISTS, keeping the next generation of defenders honest."
+      },
+      {
+        "title": "TALK 3: Overview of Women4Cyber and speed networking sessions - by Women4Cyber",
+        "description": "Women4Cyber is a non-profit European private foundation with the objective to promote, encourage and support the participation of women in the field of cybersecurity. Attendees will get the opportunity to build relationships that may lead to mentorship, internships, or job opportunities. Discover non-traditional pathways into Cybersecurity."
       }
     ],
     "meetupUrl": "https://www.meetup.com/corksec/events/311100613/"
