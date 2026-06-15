@@ -1,23 +1,5 @@
 [
   {
-    "title": "Cork|Sec 156",
-    "date": "2026-06-09",
-    "time": "19:00",
-    "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
-    "venue": "The Pavilion, Careys Lane, Cork City",
-    "talks": [
-      {
-        "title": "TALK 1: Understanding and mapping AI Security Risks through AI-HOCs by Ojasvi Gupta",
-        "description": "We present AI-HOC, a formal extension of classical process Hazard Observation Cards to AI systems. By mapping guidewords to AI failure modes, we construct a systematic hazard taxonomy spanning cybersecurity, privacy, bias, and autonomy risks. The framework integrates severity through likelihood risk scoring and safeguard classification. We discuss how AI-HAZOP supports safety cases, assurance arguments, and regulatory compliance, and highlight open challenges in emergent agent behavior and reward misalignment. supports safety cases, assurance arguments, and regulatory complian"
-      },
-      {
-        "title": "TALK 2: E2EE Key Storage Evolution & Passkey PRFs by Sean Byrne",
-        "description": "Passkeys changed authentication. The WebAuthn PRF extension looks set to change how we handle end-to-end encryption key storage as well. End-to-end encrypted systems like WhatsApp or Signal have had to grapple with an awkward question: where do the encryption keys actually live? Early approaches leaned on password-derived keys. Later designs moved toward device-bound keys with separate backup schemes bolted on. Signal protects backup keys using user-chosen PINs combined with hardware security modules and strict rate limiting. These are all carefully designed to reduce server trust while still allowing recovery. Passkey PRFs point to a different way of doing things. Instead of keeping authentication and encryption roots separate, they allow encryption key material to be deterministically derived from the same hardware-protected credential used for login. This talk walks through the evolution of E2EE key storage (Signal, WhatsApp, icloud) and makes the case that passkey PRFs join authentication credentials and encryption root material into a single primitive and explores what that shift could mean for the next generation of secure system design."
-      }
-    ],
-    "meetupUrl": "https://www.meetup.com/corksec/events/311100614/"
-  },
-  {
     "title": "Cork|Sec 157",
     "date": "2026-07-14",
     "time": "19:00",
