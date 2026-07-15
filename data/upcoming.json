@@ -1,14 +1,5 @@
 [
   {
-    "title": "Cork|Sec 157",
-    "date": "2026-07-14",
-    "time": "19:00",
-    "description": "**(\\*\\*\\* Annual Pub Quiz Edition \\*\\*\\*)**\nEvery 12 months we take a break from our normal talks to celebrate our anniversary with a free, friendly and geeky pub quiz. Expect a night with random security and tech trivia, random facts, lots of fun and prizes!",
-    "venue": "The Pavilion, Careys Lane, Cork City",
-    "talks": [],
-    "meetupUrl": "https://www.meetup.com/corksec/events/311100616/"
-  },
-  {
     "title": "Cork|Sec 158",
     "date": "2026-08-11",
     "time": "19:00",
@@ -20,8 +11,8 @@
         "description": "A lot of people in security are understandably skeptical of “AI” right now. Marketing slides promise fully autonomous SOC's, while real defenders are still drowning in huge alerts and brittle detection logic. At the same time, attackers are already using automation and AI‑adjacent tooling to scale phishing, brute forcing, credential abuse, and exploitation, so a purely manual defensive approach is becoming unrealistic. In this talk, I’ll share practical lessons from working as a security engineer and Pentester on how AI is actually starting to help with threat defense, and where it absolutely should not be trusted on its own. I’ll break “AI for defense” into three buckets: classical ML/UEBA and anomaly detection, AI‑powered SOC automation for triage and noise reduction, and LLM‑based that help with summarizing incidents, writing queries/rules, and translating technical findings for non‑technical stakeholders. For each bucket, I’ll walk through concrete workflows and examples (using redacted or synthetic data) showing what sucked before, what AI does better, and what still needs a human in the loop. I’ll also cover the major limitations and risks: hallucinations, weak multi‑step reasoning, prompt injection, and new attack surfaces introduced by LLMs and vendor tools. The goal is to give the audience a realistic blueprint for where AI can safely augment defenders today, and where “AI‑only” approaches are still pure hype."
       },
       {
-        "title": "TALK 2: TBC",
-        "description": ""
+        "title": "TALK 2: Breaking the Quantum Future: Can We Shrink Post-Quantum Crypto? - by Parichay Dey",
+        "description": "As we advent towards quantum computing, the threat of decryption of data packets travelling through the internet becomes increasingly real. The transition to Post-Quantum Cryptography (PQC) is already happening, but there’s a massive catch: post-quantum public keys are historically huge, threatening to bloat our network packets and slow down applications. In this talk, we dive into the HQC (Hamming Quasi-Cyclic) cryptosystem—one of the frontline algorithms designed to save us from quantum attacks. I’ll break down my recently published research on using the RMRS framework to aggressively shrink these key sizes, so that it can accommodate our network packets for low end IOT devices. We’ll explore how we can optimize efficiency without accidentally introducing cryptographic vulnerabilities, and look at what this next generation of encryption actually means for standard application security."
       }
     ],
     "meetupUrl": "https://www.meetup.com/corksec/events/311100619/"
@@ -34,12 +25,12 @@
     "venue": "The Pavilion, Careys Lane, Cork City",
     "talks": [
       {
-        "title": "TALK 1: TBC",
-        "description": ""
+        "title": "TALK 1: Potential Security Deviation: I have a number for you to call - by Seán Guthrie",
+        "description": "Security disclosures are a crucial vector in the cybersecurity industry for helping companies with identifying and mitigating weaknesses in their systems - this is no different in the aviation sector, affecting everyone from the ticket vendors to the companies flying the planes. Historically, responsible disclosure hasn't always worked in aviation, and it took several years for companies to get to the point of effectively accepting and managing security reports. This talk will cover the history of security disclosures in aviation, some examples of submissions we've received in my time in the aviation sphere, and how they've been managed."
       },
       {
-        "title": "TALK 2: TBC",
-        "description": ""
+        "title": "TALK 2: Airgapped System \\| Not a problem\\. Lessons Developing Malware for a NATO Exercise \\- by Sabastian Hague",
+        "description": "Step inside the development process behind Exercise Locked Shields 2026, the largest and most complex cyber live-fire exercise in the world. Centri had the honour of supporting Locked Shields by developing realistic technical content for some of the most capable cyber operators globally. This session explores the challenge of building scenarios that are credible, relevant, and difficult enough to test defenders operating at enterprise and nation-state level. You’ll hear how we approached the design of advanced exercise content, the considerations involved in developing realistic adversary behaviour, and how we balanced technical depth, safety, and learning value. The session will also walk through one of the more intricate malware components developed for the exercise. Rather than relying on obvious destructive behaviour, this tooling was designed around specific operational objectives, showing how subtle functionality can be harder for commercial detection tooling to identify. Can malware be effective without being noisy? Can highly specific functionality create a bigger detection challenge than overtly malicious behaviour? Join us and find out."
       }
     ],
     "meetupUrl": "https://www.meetup.com/corksec/events/311100622/"
