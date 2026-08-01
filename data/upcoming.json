@@ -19,18 +19,18 @@
   },
   {
     "title": "Cork|Sec 159",
-    "date": "2026-09-08",
+    "date": "2026-09-01",
     "time": "19:00",
-    "description": "Running since June 2013, every month we have 1-2 talks focused on Security or Technology - followed by socialising with like minded people",
+    "description": "**NOTE: Moved from September 8th to 1st**",
     "venue": "The Pavilion, Careys Lane, Cork City",
     "talks": [
       {
-        "title": "TALK 1: Potential Security Deviation: I have a number for you to call - by Seán Guthrie",
-        "description": "Security disclosures are a crucial vector in the cybersecurity industry for helping companies with identifying and mitigating weaknesses in their systems - this is no different in the aviation sector, affecting everyone from the ticket vendors to the companies flying the planes. Historically, responsible disclosure hasn't always worked in aviation, and it took several years for companies to get to the point of effectively accepting and managing security reports. This talk will cover the history of security disclosures in aviation, some examples of submissions we've received in my time in the aviation sphere, and how they've been managed."
+        "title": "TALK 1: Airgapped System \\| Not a problem\\. Lessons Developing Malware for a NATO Exercise \\- by Sabastian Hague",
+        "description": "(TBC after Date Change) Step inside the development process behind Exercise Locked Shields 2026, the largest and most complex cyber live-fire exercise in the world. Centri had the honour of supporting Locked Shields by developing realistic technical content for some of the most capable cyber operators globally. This session explores the challenge of building scenarios that are credible, relevant, and difficult enough to test defenders operating at enterprise and nation-state level. You’ll hear how we approached the design of advanced exercise content, the considerations involved in developing realistic adversary behaviour, and how we balanced technical depth, safety, and learning value. The session will also walk through one of the more intricate malware components developed for the exercise. Rather than relying on obvious destructive behaviour, this tooling was designed around specific operational objectives, showing how subtle functionality can be harder for commercial detection tooling to identify. Can malware be effective without being noisy? Can highly specific functionality create a bigger detection challenge than overtly malicious behaviour? Join us and find out."
       },
       {
-        "title": "TALK 2: Airgapped System \\| Not a problem\\. Lessons Developing Malware for a NATO Exercise \\- by Sabastian Hague",
-        "description": "Step inside the development process behind Exercise Locked Shields 2026, the largest and most complex cyber live-fire exercise in the world. Centri had the honour of supporting Locked Shields by developing realistic technical content for some of the most capable cyber operators globally. This session explores the challenge of building scenarios that are credible, relevant, and difficult enough to test defenders operating at enterprise and nation-state level. You’ll hear how we approached the design of advanced exercise content, the considerations involved in developing realistic adversary behaviour, and how we balanced technical depth, safety, and learning value. The session will also walk through one of the more intricate malware components developed for the exercise. Rather than relying on obvious destructive behaviour, this tooling was designed around specific operational objectives, showing how subtle functionality can be harder for commercial detection tooling to identify. Can malware be effective without being noisy? Can highly specific functionality create a bigger detection challenge than overtly malicious behaviour? Join us and find out."
+        "title": "TALK 2: TBC",
+        "description": ""
       }
     ],
     "meetupUrl": "https://www.meetup.com/corksec/events/311100622/"
