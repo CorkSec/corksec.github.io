@@ -1,23 +1,5 @@
 [
   {
-    "title": "Cork|Sec 159",
-    "date": "2026-09-01",
-    "time": "19:00",
-    "description": "**NOTE: Moved from September 8th to 1st**",
-    "venue": "The Pavilion, Careys Lane, Cork City",
-    "talks": [
-      {
-        "title": "TALK 1: Beyond Alert Volume: Chess, Cognitive Overload, and SOC Decision-Making by Ioana Macovei",
-        "description": "Ioana Macovei is back at CorkSec to share insights from ongoing research into the cognitive life of SOC analysts. The talk will explore alert fatigue and cognitive overload as problems of human pattern recognition, selective attention, and verification - not simply alert volume. How do chess players manage the exponential growth of possible states in complex decision-making? The talk will also explore what cybersecurity might learn from chess players’ cautious and sceptical approach to uncertain information—while recognising that effective cyber decision-making requires calibrated scepticism, rather than distrusting every message or alert."
-      },
-      {
-        "title": "TALK 2: The Council of Very Nice People by Gerard Barrett",
-        "description": "Borrowed from the Scottish cousins over at Hack Thursday, Ger will chair the panel of the very nice people (i.e. entire audience) to discuss cyber news items from the past month for a collaborative chat."
-      }
-    ],
-    "meetupUrl": "https://www.meetup.com/corksec/events/311100622/"
-  },
-  {
     "title": "Cork|Sec 160",
     "date": "2026-10-13",
     "time": "19:00",
@@ -43,12 +25,12 @@
     "venue": "The Pavilion, Careys Lane, Cork City",
     "talks": [
       {
-        "title": "TALK 1: TBC",
-        "description": ""
+        "title": "TALK 1: Airgapped System \\| Not a problem\\. Lessons Developing Malware for a NATO Exercise by Sabastian Hague",
+        "description": "Step inside the development process behind Exercise Locked Shields 2026, the largest and most complex cyber live-fire exercise in the world Centri had the honour of supporting Locked Shields by developing realistic technical content for some of the most capable cyber operators globally. This session explores the challenge of building scenarios that are credible, relevant, and difficult enough to test defenders operating at enterprise and nation-state level. You’ll hear how we approached the design of advanced exercise content, the considerations involved in developing realistic adversary behaviour, and how we balanced technical depth, safety, and learning value. The session will also walk through one of the more intricate malware components developed for the exercise. Rather than relying on obvious destructive behaviour, this tooling was designed around specific operational objectives, showing how subtle functionality can be harder for commercial detection tooling to identify. Can malware be effective without being noisy? Can highly specific functionality create a bigger detection challenge than overtly malicious behaviour? Join us and find out."
       },
       {
         "title": "TALK 2: TBC",
-        "description": ""
+        "description": "We will also have a seat for the [CPTA | Certified Penetration Testing Associate](https://www.centri.org/certifications/certified-penetration-testing-associate-cpta) to give away on the night"
       }
     ],
     "meetupUrl": "https://www.meetup.com/corksec/events/316296592/"

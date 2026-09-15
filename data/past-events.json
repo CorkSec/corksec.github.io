@@ -1,5 +1,22 @@
 [
   {
+    "title": "Cork|Sec 159",
+    "date": "2026-09-01",
+    "time": "19:00",
+    "venue": "The Pavilion, Careys Lane, Cork City",
+    "talks": [
+      {
+        "title": "TALK 1: Beyond Alert Volume: Chess, Cognitive Overload, and SOC Decision-Making by Ioana Macovei",
+        "description": "Ioana Macovei is back at CorkSec to share insights from ongoing research into the cognitive life of SOC analysts. The talk will explore alert fatigue and cognitive overload as problems of human pattern recognition, selective attention, and verification - not simply alert volume. How do chess players manage the exponential growth of possible states in complex decision-making? The talk will also explore what cybersecurity might learn from chess players’ cautious and sceptical approach to uncertain information—while recognising that effective cyber decision-making requires calibrated scepticism, rather than distrusting every message or alert."
+      },
+      {
+        "title": "TALK 2: The Council of Very Nice People by Gerard Barrett",
+        "description": "Borrowed from the Scottish cousins over at Hack Thursday, Ger will chair the panel of the very nice people (i.e. entire audience) to discuss cyber news items from the past month for a collaborative chat."
+      }
+    ],
+    "meetupUrl": "https://www.meetup.com/corksec/events/311100622/"
+  },
+  {
     "title": "Cork|Sec 158",
     "date": "2026-08-11",
     "time": "19:00",
