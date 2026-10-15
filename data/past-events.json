@@ -1,5 +1,22 @@
 [
   {
+    "title": "Cork|Sec 160",
+    "date": "2026-10-13",
+    "time": "19:00",
+    "venue": "The Pavilion, Careys Lane, Cork City",
+    "talks": [
+      {
+        "title": "TALK 1: Adopting AI for Threat Defense: What Actually Works (and What’s Still Hype) by Saurabh Khadtare",
+        "description": "A lot of people in security are understandably skeptical of “AI” right now. Marketing slides promise fully autonomous SOC's, while real defenders are still drowning in huge alerts and brittle detection logic. At the same time, attackers are already using automation and AI‑adjacent tooling to scale phishing, brute forcing, credential abuse, and exploitation, so a purely manual defensive approach is becoming unrealistic. In this talk, I’ll share practical lessons from working as a security engineer and Pentester on how AI is actually starting to help with threat defense, and where it absolutely should not be trusted on its own. I’ll break “AI for defense” into three buckets: classical ML/UEBA and anomaly detection, AI‑powered SOC automation for triage and noise reduction, and LLM‑based that help with summarizing incidents, writing queries/rules, and translating technical findings for non‑technical stakeholders. For each bucket, I’ll walk through concrete workflows and examples (using redacted or synthetic data) showing what sucked before, what AI does better, and what still needs a human in the loop. I’ll also cover the major limitations and risks: hallucinations, weak multi‑step reasoning, prompt injection, and new attack surfaces introduced by LLMs and vendor tools. The goal is to give the audience a realistic blueprint for where AI can safely augment defenders today, and where “AI‑only” approaches are still pure hype."
+      },
+      {
+        "title": "TALK 2: Confidential Computing by Nigel Douglas",
+        "description": "You might already be familiar with industry terms such as encryption in-transit and encryption at-rest. What about encryption in-use? Confidential computing does just that. It's a cloud computing technology that specifically protects data during processing. Exclusive control of encryption keys delivers stronger end-to-end data security in the cloud. Confidential computing continues to redefine how critical infrastructure isolates sensitive data. This is achieved within a protected CPU enclave during processing. The enclave's contents, which include the data being processed and the techniques used, are accessible only to authorised programatic codes. They're invisible and unknowable to anything or anyone else, including the cloud provider. As company leaders increasingly rely on public and hybrid cloud services, data privacy in the cloud is imperative. The primary goal of my talk is to highlight how confidential computing is providing greater assurances to security leaders that their data in the cloud is actually protected and confidential, as we continue to move more of our sensitive data and computing workloads to public cloud services."
+      }
+    ],
+    "meetupUrl": "https://www.meetup.com/corksec/events/311100625/"
+  },
+  {
     "title": "Cork|Sec 159",
     "date": "2026-09-01",
     "time": "19:00",
